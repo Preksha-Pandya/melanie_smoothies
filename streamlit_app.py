@@ -11,7 +11,7 @@ st.write(
 #('banana','strawberries','peaches')
 #)
 #st.write('your favourite fruit is :', option )
-cnx=st.connection('snowflake')
+cnx=st.connection("snowflake")
 session=cnx.session()
 
 #adding atext input box
